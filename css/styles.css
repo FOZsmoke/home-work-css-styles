@@ -1,5 +1,6 @@
 body{
     font-size: 1.1em;
+    margin: 0;
 }
 .container{
     max-width: 900px;
@@ -9,10 +10,10 @@ body{
 }
 h1{
     font-size: 2em;
+    margin-top: 0;
 }
 .hero{
     min-height: 450px;
-    text-align: center;
     background: #000 url("../images/hero.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -54,8 +55,23 @@ h1{
     color: #333;
 }
 .gray{
-    background: #333;
+    background: #eaeaea;
 }
+.columns-2{
+    columns: 2;
+}
+.text-center{
+    text-align: center;
+}
+.section-2{
+    padding: 50px 0;
+}
+
+.section-2 h2{    
+     margin-top: 0;  
+}
+
+
 
 
 
