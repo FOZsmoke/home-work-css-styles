@@ -54,9 +54,6 @@ h1{
     background: #eaeaea;
     color: #333;
 }
-.gray{
-    background: #eaeaea;
-}
 .columns-2{
     columns: 2;
 }
@@ -65,11 +62,33 @@ h1{
 }
 .section-2{
     padding: 50px 0;
+    background: #eaeaea;
 }
 
 .section-2 h2{    
      margin-top: 0;  
 }
+.section-3{
+    background: #333;
+    color: #333;
+    padding: 35px 0;
+}
+.section-3 .container{
+    columns: 3;
+}
+.column{
+    background: #fff;
+}
+.column img{
+    width: 100%;
+}
+.column-content{
+    padding: 0 20px 30px;
+}
+.column-content h3{
+    margin: 35px 0;
+}
+
 
 
 
