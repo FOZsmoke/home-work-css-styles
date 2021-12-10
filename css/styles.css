@@ -76,6 +76,10 @@ h1{
 .section-3 .container{
     columns: 3;
 }
+.section-4{
+    padding: 40px 0;
+    color: #333;    
+}
 .column{
     background: #fff;
 }
