@@ -105,6 +105,12 @@ h1{
 .dark-gray{
     background: #333;
 }
+ footer{
+    background: #000;
+    color: #fff;
+    padding: 40px 0;
+    columns: 2;
+}
 
 
 
