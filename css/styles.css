@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     font-size: 1.1em;
     margin: 0;
@@ -19,7 +23,13 @@ h1{
     background-size: cover;
     background-position: center;
     position: relative;
+    display: flex;
+    align-items: center;
+}
 
+.section-3 .container{
+    display: flex;
+    justify-content: space-between;
 }
 .hero::before{
     content: "";
@@ -30,8 +40,7 @@ h1{
     left: 0;
     background-color: rgba(0, 0, 0, 0.4);
 }
-.hero h1{
-    padding-top: 100px;
+.hero h1{   
     padding-bottom: 0;
 }
 .text-white{
@@ -81,6 +90,7 @@ h1{
 }
 .column{
     background: #fff;
+    width: 32%;
 }
 .column img{
     width: 100%;
@@ -105,11 +115,19 @@ h1{
 .dark-gray{
     background: #333;
 }
- footer{
+footer{
     background: #000;
     color: #fff;
     padding: 40px 0;
-    columns: 2;
+    display: flex;
+}
+footer > div{
+    width: 50%;
+    text-align: center;
+}
+footer a{
+    color: #2690d4;
+    text-decoration: none;
 }
 
 
